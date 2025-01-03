@@ -1,0 +1,10 @@
+providers:
+  - name: "cluster-api"
+    url: "https://raw.githubusercontent.com/mboersma/capi-config/main/cluster-api/v1.9.3/core-components.yaml"
+    type: "CoreProvider"
+  - name: "kubeadm"
+    url: "https://raw.githubusercontent.com/mboersma/capi-config/main/bootstrap-kubeadm/v1.9.3/bootstrap-components.yaml"
+    type: "BootstrapProvider"
+  - name: "kubeadm"
+    url: "https://raw.githubusercontent.com/mboersma/capi-config/main/control-plane-kubeadm/v1.9.3/control-plane-components.yaml"
+    type: "ControlPlaneProvider"
